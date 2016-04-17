@@ -10,7 +10,7 @@ function draw() {
     for(var j=0; j < height; j += 20)
     {
      fill(random(0,255),random(0,255),random(0,255)) 
-     ellipse(i,j,10,10)
+     ellipse(i+10,j+10,10,10)
     }
 }
 }
