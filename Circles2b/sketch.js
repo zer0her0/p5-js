@@ -14,10 +14,9 @@ function setup() {
     
     for (var i = 0; i < circles.length; i++) {
       fill(255);
-      ellipse(circles[i].x, circles[i].y, circles[i].r, circles[i].r);
       while (circles[i].r > 0) {
-        circles[i].r = circles[i].r - 10;
         ellipse(circles[i].x, circles[i].y, circles[i].r, circles[i].r);
+        circles[i].r = circles[i].r - 10;
       }
     }
   }
